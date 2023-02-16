@@ -1,12 +1,16 @@
 import React from "react";
 import { Container, Header } from 'semantic-ui-react'
+import devIcon from '../images/webdev.svg'
+import designIcon from '../images/Design.svg';
+import photoIcon from '../images/photography.svg';
+import managementIcon from '../images/management.svg';
 
 function About() {
     return (
         <div>
             <Container text>
-            
-             <div class="ui people shape center">
+                <Header as='h2'>About</Header>
+                <div class="ui people shape center">
                     <div class="sides">
                         <div class="active side">
                             <div class="ui card">
@@ -18,24 +22,24 @@ function About() {
                                     <div class="meta">
                                         <a>Frontend Web Developer</a>
                                     </div>
-                                <div class="extra content">
-                                    <span class="right floated">
-                                        Joined in 2023
-                                    </span>
-                                    <span>
-                                    <a className="active"><i class="address card outline icon"></i></a>
-                                    </span>
-                                    <span>
-                                    <a><i class="envelope outline icon"></i></a>
-                                    </span>
+                                    <div class="extra content">
+                                        <span class="right floated">
+                                            Joined in 2023
+                                        </span>
+                                        <span>
+                                            <a className="active"><i class="address card outline icon"></i></a>
+                                        </span>
+                                        <span>
+                                            <a><i class="envelope outline icon"></i></a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
                 <h3 class="ui header"></h3>
-                <Header as='h2'>About</Header>
+
                 <div class="ui divider"></div>
                 <p>
                     Hey there, I'm Crystal Leung
