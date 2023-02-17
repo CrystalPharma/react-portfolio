@@ -12,7 +12,6 @@ function About() {
         <div>
             <Container text>
                 <Header as='h1'><i>About</i></Header>
-                <br />
                 <div class="ui people shape stackable grid container">
                     <div class='row'>
                         <div class='column'>
@@ -35,7 +34,7 @@ function About() {
                                             <List.Item>
                                                 <List.Icon name='mail' />
                                                 <List.Content>
-                                                    <a href='crystalpharma@gmail.com'>crystalpharma@gmail.com</a>
+                                                    <a href='mailto:crystalpharma@gmail.com'>crystalpharma@gmail.com</a>
                                                 </List.Content>
                                             </List.Item>
                                             <List.Item>
