@@ -1,15 +1,18 @@
 import React from "react";
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Image } from 'semantic-ui-react'
 // import devIcon from '../images/webdev.svg'
 // import designIcon from '../images/Design.svg';
 // import photoIcon from '../images/photography.svg';
-// import managementIcon from '../images/management.svg';
+import name from '../images/name.png';
+import logo from '../images/logo.png';
 
 
 function Home() {
     return (
         <div>
-            <div class="one column stackable ui grid">
+            <div class="one column stackable ui grid centered">
+                <Image src={name} size='massive'></Image>
+                <Image src={logo} size='massive'></Image>
   <div class="column">
     <div class="ui segment">
       <p></p>
@@ -17,9 +20,7 @@ function Home() {
     </div>
   </div>
 </div>
-            <Container text>
-                <Header as='h2'></Header>
-            </Container>
+            
         </div>
     );
 }
