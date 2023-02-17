@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import {  Menu, Button, Segment} from 'semantic-ui-react'
+import {  Menu, Header, Container} from 'semantic-ui-react'
 
 export default class Nav extends Component {
     state = { activeItem: 'home' }
@@ -10,9 +10,9 @@ export default class Nav extends Component {
     render() {
         const { activeItem } = this.state
     return (
-        
+        <div>
         <Menu>
-        <ul className="nav nav-tabs">
+        <ul className="nav">
             <li className="nav-item">
                 <NavLink
                     to="/"
@@ -36,7 +36,7 @@ export default class Nav extends Component {
             </li>
             <li className="nav-item">
                 <NavLink
-                    to="blog"
+                    to="project"
                     className={({ isActive }) =>
                         isActive ? 'nav-link active' : 'nav-link'
                     }
@@ -58,6 +58,11 @@ export default class Nav extends Component {
 
         </ul>
         </Menu>
+        <Container>
+        <Header as='h1' ><br/><br/><br/></Header>
+    </Container>
+    </div>
+  
     );
 }
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Image } from 'semantic-ui-react'
+// import contact from '../images/contact.png'
 
 function Contact() {
   return (
       <div>
             <Container text>
-            <h3 class="ui header"></h3>
-                <Header as='h2'>Contact</Header>
-                <div class="ui divider"></div>
+            <Header as='h1'><i>Contact</i></Header>
+                <br/>
                 <p>
                     Hey there, I'm Crystal Leung
                     A compassionate and motivated Pharmacist with 5 years of experience. Currently, based in London providing professional services throughout England (South East and more) experience in various settings including: Online Pharmacy and Vaccination Clinic.

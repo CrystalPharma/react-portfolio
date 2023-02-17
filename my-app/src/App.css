@@ -4,6 +4,8 @@
 }
 
 body {
+  font-family: 'Roboto Mono', monospace;
+font-family: 'Zeyada', cursive;
   background-color: #E5E3E4; /* For browsers that do not support gradients */
   background-image: linear-gradient(#E5E3E4 5%, #a9b7d6 15%, rgb(250, 255, 250) 60%);
   background-repeat: no-repeat;
