@@ -50,20 +50,20 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div class ="ui divider"></div>
+                <div class="ui divider"></div>
                 <div class="six wide computer column">
                     <p>
                         Hey there, I'm Crystal Leung
                         A compassionate and motivated Pharmacist with 5 years of experience.
                     </p>
 
-                    <p>   Based in London providing professional services throughout UK experience <br/>in various settings including: Online Pharmacy and Vaccination Clinic.</p>
+                    <p>   Based in London providing professional services throughout UK experience <br />in various settings including: Online Pharmacy and Vaccination Clinic.</p>
 
-                    <p>    I am determined in delivering exceptional customer experiences.<br/>I am learning more on frontend web development and working in web development.
+                    <p>    I am determined in delivering exceptional customer experiences.<br />I am learning more on frontend web development and working in web development.
                     </p>
                     <br />
                 </div>
-                <div class ="ui divider"></div>
+                <div class="ui divider"></div>
                 <div class="ui two column doubling stackable grid container">
                     <div className="row">
                         <div className="column">
