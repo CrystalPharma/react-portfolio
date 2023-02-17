@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <div>
         <Nav />
         {/* Wrap Route elements in a Routes component */}
