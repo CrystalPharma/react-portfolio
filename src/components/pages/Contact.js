@@ -7,6 +7,7 @@ function Contact() {
         <div>
             <Segment basic inverted class="ui two column doubling stackable grid container" style={{ fontFamily: 'Roboto mono' }}>
                 <Container text>
+                <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
                     <Header as='h1' style={{ color: 'white' }}><i>Contact</i></Header>
                     <Header as='h1' style={{ color: '#E0E3EA', fontFamily: 'Roboto mono' }}> Let's connect!</Header>
                         <div class="six wide computer column centered" style={{ display: 'flex' }}>
@@ -33,6 +34,7 @@ function Contact() {
                                 </div>
                                 <a href='#'><button class="ui button" type="submit">Submit</button></a>
                             </form>
+                        </div>
                 </Container>
             </Segment>
         </div>
