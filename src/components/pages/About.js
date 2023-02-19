@@ -40,13 +40,13 @@ function About() {
                         </div>
                     </div>
                     <div class="ui divider"></div>
-                    <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
-                        Hey there, I'm Crystal Leung.
-                        A compassionate and motivated Pharmacist with 5 years of experience.
-                        Based in London providing professional services throughout UK with experience in various settings including: Online Pharmacy and Vaccination Clinic.
-                        I am determined in delivering exceptional customer experiences and embracing to be the best I can.<br />I am learning more on frontend web development and have a passion in frontend web development.
-                        <br />
-                    </div>
+                        <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
+                            Hey there, I'm Crystal Leung.
+                            A compassionate and motivated Pharmacist with 5 years of experience.
+                            Based in London providing professional services throughout UK with experience in various settings including: Online Pharmacy and Vaccination Clinic.
+                            I am determined in delivering exceptional customer experiences and embracing to be the best I can.<br />I am learning more on frontend web development and have a passion in frontend web development.
+                            <br />
+                        </div>
                     <div class="ui divider"></div>
                     <Segment basic inverted class="ui two column doubling stackable grid container">
                         <div class="ui two column grid stackable">
