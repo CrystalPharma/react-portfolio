@@ -1,11 +1,12 @@
 body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
-font-family: 'Zeyada', cursive;
+  font-family: 'Zeyada', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
+  background-color:  #1b1c1d;
+  background-image: linear-gradient( #1b1c1d 5%,  #1b1c1d 15%,  #1b1c1d 60%);
+  background-repeat: no-repeat;
 }
 
 code {
@@ -13,4 +14,3 @@ code {
   font-family: 'Zeyada', cursive;
 
 }
-

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, Header, Container } from 'semantic-ui-react'
+import '../App.css'
 
 export default class Nav extends Component {
     state = { activeItem: 'home' }
@@ -11,7 +12,7 @@ export default class Nav extends Component {
         const { activeItem } = this.state
         return (
             <div>
-                <Menu>
+                <Menu className='menu' style={{backgroundColor:'#1b1c1d'}}>
                     <ul className="nav">
                         <li className="nav-item">
                             <NavLink
@@ -58,9 +59,6 @@ export default class Nav extends Component {
 
                     </ul>
                 </Menu>
-                <Container>
-                    <Header as='h1' ><br /><br /><br /></Header>
-                </Container>
             </div>
 
         );

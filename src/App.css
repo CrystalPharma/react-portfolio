@@ -1,13 +1,14 @@
 .App {
   text-align: center;
- 
+
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
-font-family: 'Zeyada', cursive;
-  background-color: #E5E3E4; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#E5E3E4 5%, #a9b7d6 15%, rgb(250, 255, 250) 60%);
+  font-family: 'Zeyada', cursive;
+  background-color:  #1b1c1d;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient( #1b1c1d 5%,  #1b1c1d 15%,  #1b1c1d 60%);
   background-repeat: no-repeat;
 }
 
@@ -22,6 +23,7 @@ font-family: 'Zeyada', cursive;
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -33,14 +35,19 @@ font-family: 'Zeyada', cursive;
   color: white;
 }
 
-.App-link {
-  color: #8090A6;
+a.nav-link {
+  color: #b9c1d3;
+}
+
+Menu > a.nav-link :hover {
+  color: aqua;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
