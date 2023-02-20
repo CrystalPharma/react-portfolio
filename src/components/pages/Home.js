@@ -16,9 +16,9 @@ function Home() {
        
         <h3 class="one column stackable ui grid centered"></h3>
         <div class="two column stackable ui grid">
-          <div class="row"><Image src={avatar} size='massive' style={{ display: 'flex', position: 'relative', opacity: '50%', zIndex: '0', justifyContent: 'center', filter: 'blur(2px)' }}></Image>
+          <div class="row"><Image src={avatar} size='massive' style={{ display: 'flex', position: 'relative', opacity: '90%', zIndex: '0', justifyContent: 'center', filter: 'blur(2px)' }}></Image>
             <div>
-              <Image src={skills} size='medium' style={{ position: 'relative', opacity: '60%', zIndex: '0' }}></Image>
+              <Image src={skills} size='medium' style={{ position: 'relative', opacity: '90%', zIndex: '0' }}></Image>
               <h2>Web Development Skills</h2>
               <h3>  Javascript (React)</h3>
               <h3>  HTML</h3>
