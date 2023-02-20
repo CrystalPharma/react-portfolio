@@ -14,6 +14,7 @@ function Project() {
     <div>
       <Segment basic inverted class="ui two column doubling stackable grid container" style={{ fontFamily: 'Roboto mono' }}>
         <Container text>
+        <Header as='h1' className="text-center" style={{ color: '#E0E3EA' }}>Project</Header>
           <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
             <Segment basic inverted class="ui two column doubling stackable grid container">
               <div class="ui two column grid stackable">

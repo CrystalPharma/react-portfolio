@@ -8,7 +8,6 @@ function Contact() {
             <Segment basic inverted class="ui two column doubling stackable grid container" style={{ fontFamily: 'Roboto mono' }}>
                 <Container text>
                 <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
-                    <Header as='h1' style={{ color: 'white' }}><i>Contact</i></Header>
                     <Header as='h1' style={{ color: '#E0E3EA', fontFamily: 'Roboto mono' }}> Let's connect!</Header>
                         <div class="six wide computer column centered" style={{ display: 'flex' }}>
                             <a style={{ position: 'relative', zIndex: '1' }} href="https://drive.google.com/file/d/1FXgfHiY-mjsvNTAvDZfVG8OBUJObTvfi/view?usp=sharing" target={"_blank"}><button class="ui red inverted  basic button">CV</button></a>
