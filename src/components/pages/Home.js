@@ -37,7 +37,7 @@ function Home() {
               <a style={{ position: 'relative', zIndex: '1' }} href="https://drive.google.com/file/d/1FXgfHiY-mjsvNTAvDZfVG8OBUJObTvfi/view?usp=sharing" target={"_blank"}><button class="ui red inverted  basic button">CV</button></a>
               <a style={{ position: 'relative', zIndex: '1' }} href="https://github.com/CrystalPharma" target={"_blank"}><button class="ui orange inverted basic button">Github</button></a>
               <a style={{ position: 'relative', zIndex: '1' }} href="https://www.linkedin.com/in/crystal-leung-816572198/" target={"_blank"}><button class="ui primary inverted basic button">Linkedin</button></a>
-              <a style={{ position: 'relative', zIndex: '1' }} href="mailto:crystalpharma@gmail.com" target={"_blank"}><button class="ui teal inverted basic button">Hire Me</button></a>
+              <a style={{ position: 'relative', zIndex: '1' }} href="mailto:crystalpharma@gmail.com" target={"_blank"}><button class="ui teal inverted basic button">Email</button></a>
             </div>
             </div>
           </div>
