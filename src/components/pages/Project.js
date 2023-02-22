@@ -12,14 +12,14 @@ import movie from '../images/movie.png';
 function Project() {
   return (
     <div>
-      <Segment basic inverted class="ui two column doubling stackable grid container" style={{ fontFamily: 'Roboto mono' }}>
+      <Segment basic inverted className="ui two column doubling stackable grid container" style={{ fontFamily: 'Roboto mono' }}>
         <Container text>
         <Header as='h1' className="text-center" style={{ color: '#E0E3EA' }}>Project</Header>
-          <div class="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
-            <Segment basic inverted class="ui two column doubling stackable grid container">
-              <div class="ui two column grid stackable">
-                <div class="column">
-                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+          <div className="six wide computer column" style={{ fontFamily: 'Roboto mono' }}>
+            <Segment basic inverted className="ui two column doubling stackable grid container">
+              <div className="ui two column grid stackable">
+                <div className="column">
+                  <div className="ui segment" style={{ backgroundColor: 'transparent' }}>
                     <Image src={weather} size='massive'></Image>
                     <Header as='h3' style={{ color: '#007bff' }}>Weather Dashboard</Header>
                     <div style={{ color: '#007bff' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
@@ -32,8 +32,8 @@ function Project() {
                     </div>
                   </div>
                 </div>
-                <div class="column">
-                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+                <div className="column">
+                  <div className="ui segment" style={{ backgroundColor: 'transparent' }}>
                     <Image src={readme} size='massive'></Image>
                     <Header as='h3' style={{ color: '#F76AF8' }}>Readme.md Generator</Header>
                     <div style={{ color: '#F76AF8' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
@@ -47,9 +47,9 @@ function Project() {
                   </div>
                 </div>
               </div>
-              <div class="ui two column grid stackable">
-                <div class="column">
-                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+              <div className="ui two column grid stackable">
+                <div className="column">
+                  <div className="ui segment" style={{ backgroundColor: 'transparent' }}>
                   <Image src={ss} size='massive'></Image>
                     <Header as='h3' style={{ color: '#6f42c1' }}>SouporSalad Recipe App</Header>
                     <div style={{ color: '#6f42c1' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
@@ -62,8 +62,8 @@ function Project() {
                     </div>
                   </div>
                 </div>
-                <div class="column">
-                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+                <div className="column">
+                  <div className="ui segment" style={{ backgroundColor: 'transparent' }}>
                   <Image src={movie} size='massive'></Image>
                     <Header as='h3' style={{ color: '#e83e8c' }}>Movie Search App</Header>
                     <div style={{ color: '#e83e8c' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
