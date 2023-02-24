@@ -27,7 +27,7 @@ A React portfolio built demonstrating the use of React.js, semantic ui react and
 
 
 ## Usage
-Access to deployed website on https://crystalpharma.github.io/react-portfolio/
+Access to deployed website on https://crystalpharma.github.io/react-portfolio/ <br/>
 Demonstration video as follow for more details: https://drive.google.com/file/d/1F581bRQgJxaAIayOMYNK35iEjlGZF3g0/view
     
 ## License
