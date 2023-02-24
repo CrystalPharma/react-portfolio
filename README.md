@@ -16,7 +16,7 @@ A React portfolio built demonstrating the use of React.js, semantic ui react and
 ## Installation
 npm i
 ## Usage
-N/A
+Access to deployed website on https://crystalpharma.github.io/react-portfolio/
     
 ## License
 MIT
