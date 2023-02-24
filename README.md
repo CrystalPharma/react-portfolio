@@ -14,9 +14,19 @@ A React portfolio built demonstrating the use of React.js, semantic ui react and
 - [Badges](#Badges)
 
 ## Installation
-npm i
+1. Git clone the repository to your local machine via 
+
+   
+     git clone git@github.com:CrystalPharma/react-portfolio.git 
+    
+ 2. Then install any relevant packages via
+
+   
+     npm i --legacy-peer-deps
+  
 ## Usage
 Access to deployed website on https://crystalpharma.github.io/react-portfolio/
+Demonstration video as follow for more details: https://drive.google.com/file/d/1F581bRQgJxaAIayOMYNK35iEjlGZF3g0/view
     
 ## License
 MIT
