@@ -5,6 +5,8 @@ import weather from '../images/weatherapi.png';
 import readme from '../images/readmeapp.png';
 import ss from '../images/SouporSalad.png';
 import movie from '../images/movie.png';
+import restaurant from '../images/react-restaurant.png';
+import password from '../images/password-generator.png';
 
 
 
@@ -73,6 +75,36 @@ function Project() {
                     <div>
                       <List.Icon name='linkify' style={{ color: 'rgba(255,255,255,.9)' }} />
                       <a href='https://github.com/CrystalPharma/reactApppractice' target={"_blank"} >Movie Search App_(repo)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui two column grid stackable">
+                <div class="column">
+                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+                    <Image src={restaurant} size='massive'></Image>
+                    <Header as='h3' style={{ color: '#007bff' }}>React Restaurant Landing site</Header>
+                    <div style={{ color: '#007bff' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
+                    </div>
+                    <List.Icon name='linkify' style={{ color: 'rgba(255,255,255,.9)' }} />
+                    <a href='https://astonishing-tanuki-13cbcf.netlify.app/' target={"_blank"} >React Restaurant_</a>
+                    <div>
+                    <List.Icon name='linkify' style={{ color: 'rgba(255,255,255,.9)' }} />
+                    <a href='https://github.com/QuantumK9/react-restaurant' target={"_blank"} >React Restaurant_(repo)</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui segment" style={{ backgroundColor: 'transparent' }}>
+                    <Image src={password} size='massive'></Image>
+                    <Header as='h3' style={{ color: '#F76AF8' }}>Password Generator</Header>
+                    <div style={{ color: '#F76AF8' }} >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi laborum libero voluptatem autem consequatur sapiente molestias obcaecati est repellat
+                    </div>
+                    <List.Icon name='linkify' style={{ color: 'rgba(255,255,255,.9)' }} />
+                    <a href='https://crystalpharma.github.io/Password-Generator/' target={"_blank"} >Password generator_</a>
+                    <div>
+                      <List.Icon name='linkify' style={{ color: 'rgba(255,255,255,.9)' }} />
+                      <a href='https://github.com/CrystalPharma/Password-Generator' target={"_blank"} >Password generator_(repo)</a>
                     </div>
                   </div>
                 </div>
